@@ -1,0 +1,7 @@
+streamlit
+google-genai
+PyGithub
+python-dotenv
+pandas
+reportlab
+pydantic
