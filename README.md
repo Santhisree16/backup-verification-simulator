@@ -10,7 +10,7 @@ Automated verification of nightly database backups is crucial for enterprise dat
 | ---------------------- | ------------------------- |
 | Neha Reddy             | Backend & Documentation   |
 | Charugundla Santhisree | AI Integration            |
-| Badi Lakshmi Bhavana   | UI Development            |
+| Dadi Lakshmi Bhavana   | UI Development            |
 | Boda Meenakshi         | Database Development      |
 
 ## Features Implemented
