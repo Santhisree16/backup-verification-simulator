@@ -4,6 +4,15 @@
 
 Automated verification of nightly database backups is crucial for enterprise data integrity. Often, database backups corrupt silently due to partial table drops, nullification of critical values, orphaned records, or duplicates—all of which standard file-size checks fail to catch. This project simulates an automated nightly backup process that uses Artificial Intelligence to dynamically test the structural and logical integrity of the database against a wide variety of anomalies before a catastrophic recovery is required.
 
+## Team Members
+
+| Name                   | Role                      |
+| ---------------------- | ------------------------- |
+| Neha Reddy             | Backend & Documentation   |
+| Charugundla Santhisree | AI Integration            |
+| Badi Lakshmi Bhavana   | UI Development            |
+| Boda Meenakshi         | Database Development      |
+
 ## Features Implemented
 
 - **Mock Backup Generator with Corruptions (`app/mock_backup.py`)**: Automatically generates SQLite databases with dummy `users` and `transactions` data. It features a built-in 60% probability of varied corruptions including: dropping tables, emptying rows, nullifying transaction amounts, and duplicating users based on randomized thresholds.
@@ -35,7 +44,7 @@ The application is built around a **Streamlit** dashboard that acts as the user 
 
 1. Clone the repository:
    ```bash
-   git clone [YOUR_REPO_LINK]
+   git clone https://github.com/Santhisree16/backup-verification-simulator.git
    cd backup-verification-simulator
    ```
 2. Create and activate a virtual environment:
@@ -84,3 +93,6 @@ Rather than hardcoding database checks, the Gemini AI is dynamically fed the raw
 
 - **Assumptions**: The system assumes the source database schema is relatively stable and its `sqlite_master` representation fits within the token limits of the LLM. It also assumes the local environment has internet access to reach the Gemini and GitHub APIs.
 - **Limitations**: Currently restricted to SQLite databases. Extremely large enterprise databases might take a long time to restore to the local sandbox environment. While the AI's dynamically generated SQL queries are executed in an isolated sandbox database, executing AI-generated SQL always carries theoretical injection risks if the LLM hallucinates destructive commands (though mitigated entirely by the sandboxed file copy architecture).
+
+## Demo Video Link
+[Watch Backup Verification Simulator Demo](https://drive.google.com/file/d/1SpUh4oJrUSeFMU1WbGIwB0evZMR9-sS8/view?usp=drivesdk)
