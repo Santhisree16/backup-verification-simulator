@@ -102,9 +102,12 @@ Rather than hardcoding database checks, the Gemini AI is dynamically fed the raw
 # Team mates resume
 Santhisree
 https://drive.google.com/file/d/1Yn4dK5DdNWhuKRdbdRA5Fb-KEQFjJJu-/view?usp=drivesdk
+
 Neha 
 https://drive.google.com/file/d/1X3aZCDc1kjDdoN2Mb6HCdkjKJq6wTOIa/view?usp=drivesdk
+
 meenakshi
 https://drive.google.com/file/d/11KQbctSrG4xHzOSWjICCslbWCiDQh1U5/view?usp=drivesdk
+
 lakshmi bhavana
 https://drive.google.com/file/d/1RJbs5Sv4KFplErq3mIvAY3mhxKUgW6SI/view?usp=drivesdk
