@@ -1,5 +1,7 @@
 # Backup Verification Simulator
 
+# Team Name : Dataguard
+
 ## Problem Statement
 
 Automated verification of nightly database backups is crucial for enterprise data integrity. Often, database backups corrupt silently due to partial table drops, nullification of critical values, orphaned records, or duplicates—all of which standard file-size checks fail to catch. This project simulates an automated nightly backup process that uses Artificial Intelligence to dynamically test the structural and logical integrity of the database against a wide variety of anomalies before a catastrophic recovery is required.
